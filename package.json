@@ -51,7 +51,7 @@
   "config": {
     "blanket": {
       "pattern": [
-        "tasks"
+        "src"
       ]
     }
   }

@@ -1,7 +1,7 @@
 # grunt-dactylographsy
 
 [![Build Status](https://travis-ci.org/dactylographsy/node-dactylographsy.svg?branch=master)](https://travis-ci.org/dactylographsy/node-dactylographsy) ♦️
-[![Coverage Status](https://coveralls.io/repos/dactylographsy/node-dactylographsy/badge.png)](https://coveralls.io/r/dactylographsy/node-dactylographsy) ♦️
+[![Coverage Status](https://coveralls.io/repos/dactylographsy/grunt-dactylographsy/badge.svg?branch=master&service=github)](https://coveralls.io/github/dactylographsy/grunt-dactylographsy?branch=master) ♦️
 [![Dependency Status](https://david-dm.org/tdeekens/node-dactylographsy.svg?style=flat)](https://david-dm.org/dactylographsy/node-dactylographsy) ♦️
 [![devDependency Status](https://david-dm.org/dactylographsy/node-dactylographsy/dev-status.svg)](https://david-dm.org/dactylographsy/node-dactylographsy#info=devDependencies) ♦️
 [![npm version](https://badge.fury.io/js/node-dactylographsy.svg)](http://badge.fury.io/js/node-dactylographsy)
