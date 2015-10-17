@@ -1,7 +1,7 @@
-# grunt-dactylographsy
+# node-dactylographsy
 
 [![Build Status](https://travis-ci.org/dactylographsy/node-dactylographsy.svg?branch=master)](https://travis-ci.org/dactylographsy/node-dactylographsy) ♦️
-[![Coverage Status](https://coveralls.io/repos/dactylographsy/grunt-dactylographsy/badge.svg?branch=master&service=github)](https://coveralls.io/github/dactylographsy/grunt-dactylographsy?branch=master) ♦️
+[![Coverage Status](https://coveralls.io/repos/dactylographsy/node-dactylographsy/badge.svg?branch=master&service=github)](https://coveralls.io/github/dactylographsy/node-dactylographsy?branch=master) ♦️
 [![Dependency Status](https://david-dm.org/tdeekens/node-dactylographsy.svg?style=flat)](https://david-dm.org/dactylographsy/node-dactylographsy) ♦️
 [![devDependency Status](https://david-dm.org/dactylographsy/node-dactylographsy/dev-status.svg)](https://david-dm.org/dactylographsy/node-dactylographsy#info=devDependencies) ♦️
 [![npm version](https://badge.fury.io/js/node-dactylographsy.svg)](http://badge.fury.io/js/node-dactylographsy)
@@ -16,7 +16,7 @@ Developing on the task alone is fairly easy just `git clone https://github.com/d
 
 ## Release History
 
-- 1.0.0 Initial release after extraction from grunt-dactylographsy
+- 1.0.0 Initial release after extraction from node-dactylographsy
 - 1.0.1 Add `index.js` and add it as main to `package.json`
 
 ## Acknowledgements
