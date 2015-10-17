@@ -1,0 +1,14 @@
+{
+  "default": [
+    "test"
+  ],
+  "test": [
+    "eslint",
+    "mochacov:spec"
+  ],
+  "ci-test": [
+    "eslint",
+    "mochacov:html",
+    "mochacov:spec"
+  ]
+}

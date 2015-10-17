@@ -1,0 +1,14 @@
+{
+  "src": {
+    "lint": "tasks/**/*.js",
+    "js": "src/"
+  },
+  "dist": {
+    "js": "dist/"
+  },
+  "test": {
+    "mocha": [
+      "test/**/*.js"
+    ]
+  }
+}

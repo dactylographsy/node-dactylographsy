@@ -1,0 +1,8 @@
+{
+  "package": "None",
+  "hashes": {
+    "foo": "bar"
+  },
+  "rootUrl": "singularity",
+  "packageUrl": "timelapse"
+}
