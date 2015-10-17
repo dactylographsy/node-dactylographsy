@@ -17,6 +17,7 @@ Developing on the task alone is fairly easy just `git clone https://github.com/d
 ## Release History
 
 - 1.0.0 Initial release after extraction from grunt-dactylographsy
+- 1.0.1 Add `index.js` and add it as main to `package.json`
 
 ## Acknowledgements
 
