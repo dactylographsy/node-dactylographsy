@@ -3,13 +3,12 @@
 [![Build Status](https://travis-ci.org/dactylographsy/node-dactylographsy.svg?branch=master)](https://travis-ci.org/dactylographsy/node-dactylographsy) ♦️
 [![Coverage Status](https://coveralls.io/repos/dactylographsy/node-dactylographsy/badge.png)](https://coveralls.io/r/dactylographsy/node-dactylographsy) ♦️
 [![Dependency Status](https://david-dm.org/tdeekens/node-dactylographsy.svg?style=flat)](https://david-dm.org/dactylographsy/node-dactylographsy) ♦️
-[![devDependency Status](https://david-dm.org/dactylographsy/node-dactylographsy/dev-status.svg)](https://david-dm.org/dactylographsy/node-dactylographsy#info=devDependencies)
+[![devDependency Status](https://david-dm.org/dactylographsy/node-dactylographsy/dev-status.svg)](https://david-dm.org/dactylographsy/node-dactylographsy#info=devDependencies) ♦️
+[![npm version](https://badge.fury.io/js/node-dactylographsy.svg)](http://badge.fury.io/js/node-dactylographsy)
 
 > JavaScript based library to perform fingerprinting on files and generating manifests used by build tools.
 
 [![NPM](https://nodei.co/npm/node-dactylographsy.png)](https://nodei.co/npm/node-dactylographsy/)
-
-[![npm version](https://badge.fury.io/js/node-dactylographsy.svg)](http://badge.fury.io/js/node-dactylographsy) ♦️
 
 ## Developing & Contributing
 
