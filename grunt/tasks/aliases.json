@@ -9,6 +9,7 @@
   "ci-test": [
     "eslint",
     "mochacov:html",
-    "mochacov:spec"
+    "mochacov:spec",
+    "mochacov:ci"
   ]
 }
