@@ -4,12 +4,12 @@ var expect = require('chai').expect,
 var Fingerprinter = require('../src/fingerprinter'),
     fingerprinter;
 
-describe('Fingerprinter', () => {
-  beforeEach(() => {
+describe('Fingerprinter', function() {
+  beforeEach(function() {
     fingerprinter = new Fingerprinter('./test/fixtures', []);
   });
 
-  it('hashes a set of files', () => {
+  it('hashes a set of files', function() {
     var
       _hashes,
       _file = './test/fixtures/persister.json',
