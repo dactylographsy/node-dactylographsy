@@ -4,5 +4,6 @@
     "foo": "bar"
   },
   "rootUrl": "singularity",
-  "packageUrl": "timelapse"
+  "packageUrl": "timelapse",
+  "version": "b73e9041d9842aec80ba766c4ca5f16063fbf433"
 }

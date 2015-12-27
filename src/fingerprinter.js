@@ -8,7 +8,7 @@ var
 function Fingerprinter(root, devPaths) {
   this.devPaths = devPaths;
   this.fileAnalyzer = new FileAnalyzer(root);
-}
+};
 
 Fingerprinter.prototype.hashFiles = function(files) {
   var
@@ -39,6 +39,17 @@ Fingerprinter.prototype.hashFiles = function(files) {
   }, this);
 
   return _prints;
+};
+
+Fingerprinter.prototype.hashManifest = function(manifest) {
+  var
+    _hash = crypto.createHash('sha1'),
+    _digest;
+
+  _hash.setEncoding('hex');
+  _hash.update(manifest);
+
+  return _hash.digest('hex');
 };
 
 module.exports = Fingerprinter;

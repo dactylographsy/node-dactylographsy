@@ -1,6 +1,6 @@
 {
   "name": "node-dactylographsy",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "src/index.js",
   "description": " JavaScript based library to perform fingerprinting on files and generating manifests used by build tools.",
   "scripts": {

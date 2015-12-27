@@ -1,5 +1,6 @@
 var
-  fs = require('fs');
+  fs = require('fs'),
+  Fingerprinter = require('./fingerprinter');
 
 function Persister(packageMeta, root, location, rootUrl, packageUrl) {
   this._packageMeta = packageMeta;
@@ -7,21 +8,24 @@ function Persister(packageMeta, root, location, rootUrl, packageUrl) {
   this._location = location;
   this._rootUrl = rootUrl;
   this._packageUrl = packageUrl;
+
+  this.fingerprinter = new Fingerprinter(root, []);
 }
 
 Persister.prototype.write = function(hashes) {
-  var data = {};
+  var manifest = {};
 
-  data.package = this._packageMeta;
-  data.hashes = hashes;
-  data.rootUrl = this._rootUrl;
-  data.packageUrl = this._packageUrl;
+  manifest.package = this._packageMeta;
+  manifest.hashes = hashes;
+  manifest.rootUrl = this._rootUrl;
+  manifest.packageUrl = this._packageUrl;
+  manifest.version = this.fingerprinter.hashManifest(JSON.stringify(manifest));
 
-  var json = JSON.stringify(data, null, 2);
+  var manifestAsJson = JSON.stringify(manifest, null, 2);
 
-  fs.writeFileSync(this._root + '/' + this._location, json);
+  fs.writeFileSync(this._root + '/' + this._location, manifestAsJson);
 
-  return json;
+  return manifestAsJson;
 };
 
 Persister.prototype.read = function() {

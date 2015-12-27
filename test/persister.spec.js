@@ -61,4 +61,17 @@ describe('Persister', function() {
 
     expect(read.packageUrl).to.equal(packageUrl);
   });
+
+  it('writes the version to the manifest', function() {
+    var written = JSON.parse(persister.write({
+      foo: 'bar'
+    }));
+
+    expect(written).to.be.an.object;
+    expect(written.version).to.be.a.string;
+
+    var read = persister.read();
+
+    expect(read.version).to.equal(written.version);
+  });
 });
