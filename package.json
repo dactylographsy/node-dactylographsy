@@ -25,7 +25,7 @@
   "homepage": "https://github.com/dactylographsy/node-dactylographsy",
   "dependencies": {
     "async": "1.5.2",
-    "lodash": "4.3.0",
+    "lodash": "4.4.0",
     "sprint": "0.3.1"
   },
   "devDependencies": {
