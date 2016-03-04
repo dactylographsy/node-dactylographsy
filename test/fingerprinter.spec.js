@@ -12,7 +12,7 @@ manifest = function(file) {
     ]);
 
   return {
-    hash: 'a9c51ddc58472676ca510bfbee55e4efc32c8a3f',
+    hash: '3838ea0c67133131750683037344bedf562296679eeddd92e271994e45e9cede',
     hashes: _hashes
   };
 };
@@ -25,7 +25,6 @@ describe('Fingerprinter', function() {
   it('hashes a set of files', function() {
     var
       _manifest = manifest('./test/fixtures/persister.json');
-
     expect(_manifest.hashes[_manifest.hash].hash).to.equal(_manifest.hash);
     expect(_manifest.hashes[_manifest.hash].extension).to.equal('.json');
     expect(_manifest.hashes[_manifest.hash].file).to.equal('persister.json');
