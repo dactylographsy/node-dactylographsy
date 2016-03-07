@@ -20,7 +20,6 @@ Persister.prototype.write = function(hashes) {
   manifest.rootUrl = this._rootUrl;
   manifest.packageUrl = this._packageUrl;
   manifest.version = this.fingerprinter.hashManifest(JSON.stringify(manifest));
-
   var manifestAsJson = JSON.stringify(manifest, null, 2);
 
   fs.writeFileSync(this._root + '/' + this._location, manifestAsJson);

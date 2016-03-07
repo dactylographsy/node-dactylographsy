@@ -17,7 +17,7 @@ Fingerprinter.prototype.hashFiles = function(files) {
 
   files.forEach(function(file) {
     var
-      _hash = crypto.createHash('sha1'),
+      _hash = crypto.createHash('sha256'),
       _digest;
 
     _hash.setEncoding('hex');
@@ -43,7 +43,7 @@ Fingerprinter.prototype.hashFiles = function(files) {
 
 Fingerprinter.prototype.hashManifest = function(manifest) {
   var
-    _hash = crypto.createHash('sha1'),
+    _hash = crypto.createHash('sha256'),
     _digest;
 
   _hash.setEncoding('hex');
