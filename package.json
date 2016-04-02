@@ -25,14 +25,14 @@
   "homepage": "https://github.com/dactylographsy/node-dactylographsy",
   "dependencies": {
     "async": "1.5.2",
-    "lodash": "4.6.1",
+    "lodash": "4.7.0",
     "sprint": "0.3.1"
   },
   "devDependencies": {
-    "babel-eslint": "6.0.0",
+    "babel-eslint": "6.0.2",
     "chai": "3.5.0",
     "chai-string": "1.2.0",
-    "eslint": "2.5.0",
+    "eslint": "2.6.0",
     "grunt": "0.4.5",
     "grunt-contrib-watch": "1.0.0",
     "grunt-eslint": "18.0.0",
@@ -47,7 +47,7 @@
   },
   "peerDependencies": {
     "grunt": "~0.4.5",
-    "grunt-cli": "~1.1.0"
+    "grunt-cli": "~1.2.0"
   },
   "config": {
     "blanket": {
