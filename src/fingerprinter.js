@@ -3,7 +3,8 @@ var
   fs = require('fs'),
   _ = require('lodash'),
   crypto = require('crypto'),
-  FileAnalyzer = require('./file-analyzer');
+  FileAnalyzer = require('./file-analyzer'),
+  hash = require('string-hash');
 
 function Fingerprinter(root, devPaths) {
   this.devPaths = devPaths;
@@ -17,6 +18,7 @@ Fingerprinter.prototype.hashFiles = function(files) {
 
   files.forEach(function(file) {
     var
+      _code = fs.readFileSync(file).toString(),
       _hash = crypto.createHash('sha256'),
       _digest;
 
@@ -26,6 +28,7 @@ Fingerprinter.prototype.hashFiles = function(files) {
     _digest = _hash.digest('hex');
 
     _prints[_digest] = {
+      id: hash(_code),
       hash: _digest,
       file: path.basename(file),
       path: _.difference(
