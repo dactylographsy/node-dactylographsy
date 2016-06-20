@@ -30,7 +30,7 @@
     "string-hash": "1.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "6.0.4",
+    "babel-eslint": "6.0.5",
     "chai": "3.5.0",
     "chai-string": "1.2.0",
     "eslint": "2.11.1",
