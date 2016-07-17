@@ -19,6 +19,7 @@ Developing on the task alone is fairly easy just `git clone https://github.com/d
 - 1.0.0 Initial release after extraction from node-dactylographsy
 - 1.0.1 Add `index.js` and add it as main to `package.json`
 - 1.1.0 Add manifest fingerprint (versions manifests)
+- 2.0.0 Drop support for node <= 0.12
 
 ## Acknowledgements
 
