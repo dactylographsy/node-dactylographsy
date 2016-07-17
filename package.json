@@ -1,6 +1,6 @@
 {
   "name": "node-dactylographsy",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "src/index.js",
   "description": " JavaScript based library to perform fingerprinting on files and generating manifests used by build tools.",
   "scripts": {
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tdeekens/grunt-dactylographsy.git"
+    "url": "https://github.com/tdeekens/node-dactylographsy.git"
   },
   "keywords": [
-    "grunt",
+    "node",
     "npm",
     "asset",
     "fingerprinting",
