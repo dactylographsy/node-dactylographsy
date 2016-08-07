@@ -6,9 +6,9 @@
   "scripts": {
     "test": "grunt ci-test"
   },
-  "engineStrict" : true,
+  "engineStrict": true,
   "engines": {
-      "node": ">= 4"
+    "node": ">= 4"
   },
   "repository": {
     "type": "git",
