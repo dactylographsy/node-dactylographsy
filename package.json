@@ -6,9 +6,9 @@
   "scripts": {
     "test": "grunt ci-test"
   },
-  "engineStrict" : true,
+  "engineStrict": true,
   "engines": {
-      "node": ">= 4"
+    "node": ">= 4"
   },
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
     "isparta": "4.0.0",
     "istanbul": "0.4.4",
     "load-grunt-config": "0.19.2",
-    "mocha": "3.0.1",
+    "mocha": "3.0.2",
     "object-assign": "^4.0.1",
     "time-grunt": "1.4.0",
     "grunt": "1.0.1",
