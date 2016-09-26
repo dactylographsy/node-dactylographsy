@@ -29,7 +29,7 @@
   "homepage": "https://github.com/dactylographsy/node-dactylographsy",
   "dependencies": {
     "async": "2.0.1",
-    "lodash": "4.14.1",
+    "lodash": "4.16.2",
     "sprint": "0.3.1",
     "string-hash": "1.1.0"
   },
