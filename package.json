@@ -37,7 +37,7 @@
     "babel-eslint": "7.0.0",
     "chai": "3.5.0",
     "chai-string": "1.2.0",
-    "eslint": "3.8.0",
+    "eslint": "3.10.0",
     "grunt-contrib-watch": "1.0.0",
     "grunt-eslint": "19.0.0",
     "grunt-mocha-cov": "0.4.0",
