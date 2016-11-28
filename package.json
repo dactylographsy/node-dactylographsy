@@ -31,7 +31,7 @@
     "async": "2.1.1",
     "lodash": "4.16.4",
     "sprint": "0.3.1",
-    "string-hash": "1.1.0"
+    "string-hash": "1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "7.0.0",
