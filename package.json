@@ -28,16 +28,16 @@
   },
   "homepage": "https://github.com/dactylographsy/node-dactylographsy",
   "dependencies": {
-    "async": "2.1.1",
-    "lodash": "4.16.4",
+    "async": "2.1.4",
+    "lodash": "4.17.4",
     "sprint": "0.3.1",
-    "string-hash": "1.1.0"
+    "string-hash": "1.1.1"
   },
   "devDependencies": {
-    "babel-eslint": "7.0.0",
+    "babel-eslint": "7.1.1",
     "chai": "3.5.0",
-    "chai-string": "1.2.0",
-    "eslint": "3.8.0",
+    "chai-string": "1.3.0",
+    "eslint": "3.14.0",
     "grunt-contrib-watch": "1.0.0",
     "grunt-eslint": "19.0.0",
     "grunt-mocha-cov": "0.4.0",
@@ -45,7 +45,7 @@
     "isparta": "4.0.0",
     "istanbul": "0.4.5",
     "load-grunt-config": "0.19.2",
-    "mocha": "3.1.2",
+    "mocha": "3.2.0",
     "object-assign": "^4.0.1",
     "time-grunt": "1.4.0",
     "grunt": "1.0.1",
